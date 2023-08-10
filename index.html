@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabéns Thainazinha linda!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parabens-container">
+        <h1>Parabéns pelo seu dia!</h1>
+        <p>Quero tornar esse dia especial para você. Escolha uma atividade abaixo:</p>
+        
+        <div class="opcoes">
+            <button class="botao-atividade botao-casa" onclick="escolherAtividade('Ficar em casa com o Ale😋, aproveite bem em!')">Ficar em casa com o Ale😋</button>
+            <button class="botao-atividade botao-cinema" onclick="escolherAtividade('Cinema e pipoca, vamos ver openhaimer??')">Cinema e pipoca</button>
+            <button class="botao-atividade botao-jantar" onclick="escolherAtividade('Sair para comer, pizzazinha?')">Sair para comer</button>
+            <button class="botao-atividade botao-jogos" onclick="escolherAtividade('Jogar UFC, Conor vs khabib??')">Jogar UFC</button>
+            <button class="botao-atividade botao-nao-fazer-nada" onclick="naoFazerNada()">Não fazer nada</button>
+        </div>
+
+        <p id="mensagem-escolhida"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
